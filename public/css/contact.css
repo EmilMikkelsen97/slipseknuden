@@ -1,0 +1,17 @@
+div input, textarea {
+    border-radius: 10px;
+    margin-bottom: 1%;
+    border: 1px solid grey;
+    width: 90%;
+}
+textarea {
+    resize: none;
+    height: 100px;
+    margin-right: 400px;
+}
+#contact-content iframe {
+    float: left;
+}
+#contect-content img, form {
+    float: left;
+}

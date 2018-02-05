@@ -1,0 +1,13 @@
+p {
+    width: 50%;
+}
+#slips {
+    margin-right: 50%;
+}
+#workers img {
+    width: 100px;
+}
+#workers {
+    display: inline-block;
+    width: 20%;
+}

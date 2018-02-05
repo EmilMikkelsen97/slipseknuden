@@ -1,0 +1,19 @@
+<div id="content">
+    <% products.forEach(function(products) { %>
+        <div id="slips">
+            <a href="#">
+                <img class="" src="<%= products.img %>" alt="">
+            </a>
+            <div class="tekst">
+                <h4>
+                    <%= products.name %>
+                </h4>
+                <p>
+                    <%= products.description %>
+                </p>
+                <h5>DKK <%= products.price %>,-</h5>
+                <button>INFO</button>
+            </div>
+        </div>
+    <% }); %>
+</div>

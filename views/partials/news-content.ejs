@@ -1,0 +1,12 @@
+<div id="content">
+    <h2>Nyheder</h2>
+    <% news.forEach(function(news) { %>
+    <p>
+        <span><%= news.date %></span>
+        <br>
+        <br> <%= news.header %>
+        <br> <%= news.description %>
+        <span id="readMore"><%= news.read %></span>
+    </p>
+    <% }); %>
+</div>

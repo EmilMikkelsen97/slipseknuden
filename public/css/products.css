@@ -1,0 +1,19 @@
+#slips img {
+    width: 25%;
+}
+.tekst {
+    width: 60%;
+}
+#slips {
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 3%;
+}
+button {
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+}
